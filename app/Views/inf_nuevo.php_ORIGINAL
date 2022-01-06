@@ -1,0 +1,766 @@
+<div class="page-wrapper">
+  <div class="container-fluid">
+    <div class="row page-titles">
+      <div class="col-md-5 align-self-center">
+        <h4 class="text-themecolor">Dictamen</h4>
+      </div>
+      <div class="col-md-7 align-self-center text-end">
+        <div class="d-flex justify-content-end align-items-center">
+          <ol class="breadcrumb justify-content-end">
+            <li class="breadcrumb-item"><a href="javascript:void(0)">Home</a></li>
+            <li class="breadcrumb-item active">Nuevo</li>
+          </ol>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-12">
+        <div class="card">
+          <div class="card-body">
+
+            <h1>Dictamen</h1>
+            <form action="/home/guardarNuevoDetalle" method="post">
+
+              <div class="row">
+
+                  <div class="col-md-3">
+                    <div class="form-group">      
+                      <label for="id" class="form-label">Dictamen no.</label>
+                      <input type="text" name="cert_no" id="cert_no" class="form-control" value="" required>
+                    </div>
+                  </div>  
+                </div>
+
+              <hr />
+                <div class="row">
+                  <div class="col-md-12">
+                    <h2>Institucion</h2>
+                    <textarea  name="institucion" id="institucion">
+                            <p style="text-align:center;">DICTAMEN DE LA EVALUACIÓN EXTERNA CON FINES DE <br />
+                                ACREDITACIÓN INTERNACIONAL DEL BACHILLERATO DE </p>
+                            <p></p>
+                    </textarea>
+                  </div>
+                </div>
+
+              <hr />
+                <div class="row">
+                  <div class="col-md-12">
+                    <h2>I. Apertura</h2>
+                    <textarea id="indice_1" name="indice_1">
+                            <h2>I. Apertura</h2>
+                            <p>El proceso de evaluación con fines de acreditación internacional {XXXXXXXXXX}</p>
+                        </textarea>
+                  </div>
+                </div>
+
+              <hr />
+                <div class="row">
+                  <div class="col-md-12">
+                    <h2>II. Presentación</h2>
+                    <textarea id="indice_2" name="indice_2">
+                            <h2>II. Presentación</h2>
+                            <p>La misión de GRANA es impulsar la calidad de la educación superior y media superior en el ámbito internacional, con pertinencia, cobertura e innovación en beneficio de la sociedad asociada a la demanda en los sistemas educativos respondan a una sociedad global, donde la cooperación académica internacional y la construcción de la verdadera internacionalización esté orientada a formar individuos comprometidos con el desarrollo sustentable, con una verdadera vocación de servicio, un perfil competitivo en el entorno hemisférico, con sentido ético y principios morales.</p>
+                            <p>Los efectos globalizadores de la economía han dado margen a un reacomodo en las estrategias formativas del individuo. Los procesos de internacionalización son el resultado de un orden basado en políticas, normas y estrategias de organismos de prestigio internacional.</p>
+                            <p>Organismos como UNESCO, OEA, OCDE, junto a la declaratoria de BOLONIA, entre otros, coinciden en señalar que la educación ofrecida por establecimientos educativos deberá considerar que los entes universitarios interactúen en redes académicas y sociales, que el estudiante conozca otras culturas y respete los usos y costumbres de ellas, todo lo cual requiere que se creen las condiciones para que los destinatarios de la educación superior participen como actores comprometidos responsables en los procesos de cambio, en el contexto nacional e internacional. En este escenario global e interdisciplinario, la dimensión internacional de una institución de educación media superior y superior deberá incluir a estudiantes, egresados, profesores, administrativos. Asimismo, tendrá que incorporar la investigación, la docencia, la extensión, la vinculación y la difusión, así como las tecnologías de la información como un factor de desarrollo y cambio.</p>
+                            <p>En el marco de los procedimientos aplicados por GRANA, como parte del proceso de gestión para evaluar la calidad del {XXXXXXXXXX}, se ha observado un compromiso institucional en la mejora de su oferta académica, se denota entusiasmo, interés y compromiso de la comunidad universitaria.</p>
+                        </textarea>
+                  </div>
+                </div>
+
+                <hr />
+                <div class="row">
+                  <div class="col-md-12">
+                    <h2>III. Contexto</h2>
+                    <textarea id="indice_3" name="indice_3">
+                            <h2>III. Contexto</h2>
+                            <p>{XXXXXXXXXX}</p>
+                        </textarea>
+                  </div>
+                </div>
+                
+                <hr />
+                <div class="row">
+                  <div class="col-md-12">
+                    <h2>IV. Antecedentes</h2>
+                    <textarea id="indice_4" name="indice_4">
+                        <h2>IV. Antecedentes</h2>
+                        <p>Los procesos y procedimientos realizados a lo largo de las Evaluaciones Interna y Externa se describen en los siguientes 19 momentos:</p>
+                        <table border="1" cellpadding="1" cellspacing="1" style="width:100%;">
+                        	<thead>
+                        		<tr>
+                        			<th scope="col">Momento N°</th>
+                        			<th scope="col">Fecha de realización</th>
+                        			<th scope="col">Actividad realizada</th>
+                        		</tr>
+                        	</thead>
+                        	<tbody>
+                        		<tr>
+                        			<td>&nbsp;</td>
+                        			<td>&nbsp;</td>
+                        			<td>&nbsp;</td>
+                        		</tr>
+                        		<tr>
+                        			<td>&nbsp;</td>
+                        			<td>&nbsp;</td>
+                        			<td>&nbsp;</td>
+                        		</tr>
+                        		<tr>
+                        			<td>&nbsp;</td>
+                        			<td>&nbsp;</td>
+                        			<td>&nbsp;</td>
+                        		</tr>
+                        		<tr>
+                        			<td>&nbsp;</td>
+                        			<td>&nbsp;</td>
+                        			<td>&nbsp;</td>
+                        		</tr>
+                        		<tr>
+                        			<td>&nbsp;</td>
+                        			<td>&nbsp;</td>
+                        			<td>&nbsp;</td>
+                        		</tr>
+                        		<tr>
+                        			<td>&nbsp;</td>
+                        			<td>&nbsp;</td>
+                        			<td>&nbsp;</td>
+                        		</tr>
+                        		<tr>
+                        			<td>&nbsp;</td>
+                        			<td>&nbsp;</td>
+                        			<td>&nbsp;</td>
+                        		</tr>
+                        		<tr>
+                        			<td>&nbsp;</td>
+                        			<td>&nbsp;</td>
+                        			<td>&nbsp;</td>
+                        		</tr>
+                        		<tr>
+                        			<td>&nbsp;</td>
+                        			<td>&nbsp;</td>
+                        			<td>&nbsp;</td>
+                        		</tr>
+                        		<tr>
+                        			<td>&nbsp;</td>
+                        			<td>&nbsp;</td>
+                        			<td>&nbsp;</td>
+                        		</tr>
+                        		<tr>
+                        			<td>&nbsp;</td>
+                        			<td>&nbsp;</td>
+                        			<td>&nbsp;</td>
+                        		</tr>
+                        		<tr>
+                        			<td>&nbsp;</td>
+                        			<td>&nbsp;</td>
+                        			<td>&nbsp;</td>
+                        		</tr>
+                        		<tr>
+                        			<td>&nbsp;</td>
+                        			<td>&nbsp;</td>
+                        			<td>&nbsp;</td>
+                        		</tr>
+                        		<tr>
+                        			<td>&nbsp;</td>
+                        			<td>&nbsp;</td>
+                        			<td>&nbsp;</td>
+                        		</tr>
+                        		<tr>
+                        			<td>&nbsp;</td>
+                        			<td>&nbsp;</td>
+                        			<td>&nbsp;</td>
+                        		</tr>
+                        		<tr>
+                        			<td>&nbsp;</td>
+                        			<td>&nbsp;</td>
+                        			<td>&nbsp;</td>
+                        		</tr>
+                        		<tr>
+                        			<td>&nbsp;</td>
+                        			<td>&nbsp;</td>
+                        			<td>&nbsp;</td>
+                        		</tr>
+                        		<tr>
+                        			<td>&nbsp;</td>
+                        			<td>&nbsp;</td>
+                        			<td>&nbsp;</td>
+                        		</tr>
+                        	</tbody>
+                        </table>
+                        </textarea>
+                  </div>
+                </div>
+
+              <hr />
+                <div class="row">
+                  <div class="col-md-12">
+                    <h2>V. Metodología</h2>
+                    <textarea id="indice_5" name="indice_5">
+                            <h2>V. Metodología</h2>
+                            <p>Los 9 momentos de los procesos y procedimientos que se realizaron a lo largo de la evaluación del Programa Académico {XXXXXXXXXX} se describen como las etapas de la metodología aplicada, siendo:
+                                
+                                <p>a. Conformación de los comités de evaluación interna</p>
+                                <p>b. Capacitación en línea</p>
+                                <p>c. Integración de información estadística</p>
+                                <p>d. Identificación de fortalezas, debilidades y plan de mejoramiento permanente de la evaluación interna</p>
+                                <p>e. Evaluación externa en línea</p>
+                                <p>f. Visita de verificación para el complemento de la evaluación externa</p>
+                                <p>g. Entrega del dictamen como resultado de la evaluación externa a la Institución</p>
+                                <p>h. La propuesta para la mejora permanente</p>
+                                <p>i. Meta-evaluación del proceso de evaluación.</p>
+                        </textarea>
+                  </div>
+                </div>
+
+              <hr />
+                <div class="row">
+                  <div class="col-md-12">
+                    <h2>VI. Resultados de la Aplicación Metodológica</h2>
+                    <textarea id="indice_6" name="indice_6">
+                            <h2>VI. Resultados de la Aplicación Metodológica</h2>
+
+                        <p>La integración y conformación de los Comités de Evaluación Interna (CEI) de la Escuela de Bachilleres fue adecuada y pertinente toda vez que durante el proceso de evaluación-acreditación se observó un excelente equipo de trabajo cuya comunicación entre sus integrantes: directivos, profesores y estudiantes, fue factor oportuno para la buena integración de la información solicitada. Con la capacitación de los CEI mediante taller virtual por videoconferencias para la construcción de la evaluación interna y sesiones virtuales de asesoría y capacitación de GRANA se lograron comprender los contextos y tendencias internacionales sobre la calidad de la educación superior y media superior en el hemisferio.</p>
+                        
+                        <p>Así también, el manejo de formatos para la integración de información estadística de los PA.</p>
+                        
+                        <p>La descripción de las fortalezas, las debilidades, el plan de mejora y la integración de información estadística de los PA se fundamentan en los siguientes rubros:</p>
+                        
+                        <ol>
+                        	<li>Impacto Social de la Formación.</li>
+                        	<li>Resultados de la Investigación Vinculados a la Formación</li>
+                        	<li>Ingreso, Permanencia y Eficiencia Terminal en la Formación.</li>
+                        	<li>Profesores Vinculados a la Formación.</li>
+                        	<li>Pertinencia del Modelo Educativo y Estructura Curricular.</li>
+                        	<li>Estrategias Metodológicas de Aprendizaje.</li>
+                        	<li>Infraestructura, Equipamiento, Tecnologías y Bibliografía en la Formación.</li>
+                        	<li>Impacto de las Actividades de Extensión, Vinculación y Difusión en la Formación.</li>
+                        	<li>Reconocimiento Internacional de la Formación.</li>
+                        	<li>Impacto en la Pertinencia de la Normatividad, la Administración y las Finanzas.</li>
+                        </ol>
+                        
+                        <p>A su vez, cada rubro est&aacute; integrado por 10 ítems y cada ítem est&aacute; referenciado a 10 indicadoresde segunda y tercera generación.</p>
+                        
+                        <p>La evaluación interna fue construida bajo una evaluación cualitativa referenciada, soportada y justificada, que se ircunscribe a documentación de soporte evidencial para los efectos de su constatación y verificación de información en el proceso de la evaluación.</p>
+                        
+                        <p>La evaluación externa EE se realizó en 6 momentos:</p>
+                        
+                        <ol>
+                        	<li>La selección de académicos con perfiles adecuados</li>
+                        	<li>La capacitación del modelo GRANA de académicos seleccionados</li>
+                        	<li>La visita de verificación in situ a {XXXXXXXXXX}</li>
+                        	<li>La evaluación a distancia de la EE.</li>
+                        	<li>El reporte del dictamen de los resultados de la evaluación externa basados en la apreciación de los expertos académicos bajo una óptica de modelos y estándares internacionales de calidad educativa a seguir bajo un proceso de evaluación permanente.</li>
+                        	<li>El Proceso de Mejoramiento Permanente (PMP) como elemento fundamental en los planes estratégicos de desarrollo de {XXXXXXXXXX} en pro de la verdadera calidad académica {XXXXXXXXXX} que se requiere para impulsar la capacidad y competitividad de la región.</li>
+                        </ol>
+                        </textarea>
+                  </div>
+                </div>
+
+              <hr />
+                <div class="row">
+                  <div class="col-md-12">
+                    <h2>VII. Comité Evaluador Interno</h2>
+                    <textarea id="indice_7" name="indice_7">
+                        <h2>VII. Comité Evaluador Interno</h2>
+
+                    <p>La participación en el llenado de los rubros fue de manera colectiva con los integrantes del Comité Interno. En la revisión se contó con la participación de la Coordinadora General de Bachilleratos; la Dra. Patricia Martínez Martínez y el Coordinador General de Relaciones Internacionales, el MC. Juan Manuel Morales Santoyo.</p>
+                    
+                    <p>En la exposición de cada rubro participaron:</p>
+                    
+                    <table border="1" cellpadding="1" cellspacing="1" style="width: 100%;">
+                    	<thead>
+                    		<tr>
+                    			<th scope="col">Participación</th>
+                    			<th scope="col">Descripción</th>
+                    			<th scope="col">Responsable</th>
+                    		</tr>
+                    	</thead>
+                    	<tbody>
+                    		<tr>
+                    			<td>
+                    			<p>Rubro 1</p>
+                    			</td>
+                    			<td>
+                    			<p>Impacto social sobre la formación</p>
+                    			</td>
+                    			<td>
+                    			<p>Lic. Claudia Elena García Vega</p>
+                    			</td>
+                    		</tr>
+                    		<tr>
+                    			<td>
+                    			<p>Rubro 2</p>
+                    			</td>
+                    			<td>
+                    			<p>Resultados de la investigación vinculados a la formación</p>
+                    			</td>
+                    			<td>
+                    			<p>Lic. Rodolfo Elliot Morales Perales</p>
+                    			</td>
+                    		</tr>
+                    		<tr>
+                    			<td>
+                    			<p>Rubro 3</p>
+                    			</td>
+                    			<td>
+                    			<p>Ingreso, permanencia y eficiencia en la formación</p>
+                    			</td>
+                    			<td>
+                    			<p>Lic. Jorge Mejía Tlacuilo</p>
+                    			</td>
+                    		</tr>
+                    		<tr>
+                    			<td>
+                    			<p>Rubro 4</p>
+                    			</td>
+                    			<td>
+                    			<p>Profesores vinculados a la formación</p>
+                    			</td>
+                    			<td>
+                    			<p>Lic. Alicia del Rosario Ruíz Flores</p>
+                    			</td>
+                    		</tr>
+                    		<tr>
+                    			<td>
+                    			<p>Rubro 5</p>
+                    			</td>
+                    			<td>
+                    			<p>Pertinencia del modelo educativo y estructura curricular</p>
+                    			</td>
+                    			<td>
+                    			<p>M.D Hortencia de Luna Strozzi</p>
+                    			</td>
+                    		</tr>
+                    		<tr>
+                    			<td>
+                    			<p>Rubro 6</p>
+                    			</td>
+                    			<td>
+                    			<p>Estrategias metodológicas de aprendizaje</p>
+                    			</td>
+                    			<td>
+                    			<p>Lic. Alicia del Rosario Ruíz Flores</p>
+                    			</td>
+                    		</tr>
+                    		<tr>
+                    			<td>
+                    			<p>Rubro 7</p>
+                    			</td>
+                    			<td>
+                    			<p>Infraestructura, equipamiento,tecnologías y bibliografía en la formación</p>
+                    			</td>
+                    			<td>
+                    			<p>Lic. Claudia Elena García Vega<br />
+                    			C. Alumna Evelyn Alejandra de la Rosa Duque</p>
+                    			</td>
+                    		</tr>
+                    		<tr>
+                    			<td>
+                    			<p>Rubro 8</p>
+                    			</td>
+                    			<td>
+                    			<p>Impacto de las actividades de extensión, vinculación y difusión en la formación.</p>
+                    			</td>
+                    			<td>
+                    			<p>M.C. América Rendón Perales</p>
+                    			</td>
+                    		</tr>
+                    		<tr>
+                    			<td>
+                    			<p>Rubro 9</p>
+                    			</td>
+                    			<td>
+                    			<p>Reconocimiento internacional de la formación</p>
+                    			</td>
+                    			<td>Lic. Rodolfo Elliot Morales Perales</td>
+                    		</tr>
+                    		<tr>
+                    			<td>
+                    			<p>Rubro 10</p>
+                    			</td>
+                    			<td>
+                    			<p>Impacto en la pertinencia de lanormatividad, la administración ylas finanzas como facilitadoras en la formación</p>
+                    			</td>
+                    			<td>M.C. Brenda Yvonne Bustos Salazar</td>
+                    		</tr>
+                    	</tbody>
+                    </table>
+                    </textarea>
+                  </div>
+                </div>
+
+              <hr />
+                <div class="row">
+                  <div class="col-md-12">
+                    <h2>VIII. Comité Evaluador Externo</h2>
+                    <textarea id="indice_8" name="indice_8">
+                            <h2>VIII. Comité Evaluador Externo</h2>
+                            <p>El equipo evaluador externo estuvo conformado por:</p>
+                            <p>{XXXXXXXXXX}</p>
+                        </textarea>
+                  </div>
+                </div>
+
+              <hr />
+                <div class="row">
+                  <div class="col-md-12">
+                    <h2>IX. Ítems evaluados</h2>
+                    <textarea id="indice_9" name="indice_9">
+                            <h2>IX. Ítems evaluados</h2>
+
+                            <ol>
+                            	<li><strong>Impacto social de la formación</strong>
+                            	<ol>
+                            		<li>Coherencia entre la visión, misión y los objetivos planteados en la génesis de la formación con los resultados actuales.</li>
+                            		<li>Participación de entes internos y externos a la institución en la planeación.</li>
+                            		<li>Pertinencia y competitividad en el ámbito nacional e internacional.</li>
+                            		<li>Reconocimiento de la sociedad a los egresados por su desempe&ntilde;o.</li>
+                            		<li>Competitividad de los egresados ante similares externos.</li>
+                            		<li>Percepción de la comunidad científica, colegios especializados, egresados y empleadores.</li>
+                            		<li>Impacto en la inserción laboral nacional e internacional</li>
+                            		<li>Percepción de los estudiantes, profesores y personal administrativo</li>
+                            		<li>Egresados inscritos en el posgrado</li>
+                            		<li>Participación de egresados en la mejora de la formación</li>
+                            	</ol>
+                            	</li>
+                            	<li><strong>Resultados de la investigación vinculados a la formación</strong>
+                            	<ol>
+                            		<li>Distinciones por organismos de prestigio nacional e internacional.</li>
+                            		<li>Patentes vinculadas.</li>
+                            		<li>Desarrollos tecnológicos vinculados.</li>
+                            		<li>Artículos publicados en medios de prestigio y libros.</li>
+                            		<li>Reportes técnicos.</li>
+                            		<li>Tesis dirigidas.</li>
+                            		<li>Participación en congresos y en grupos nacionales e internacionales de investigación.</li>
+                            		<li>Divulgación y difusión.</li>
+                            		<li>Resultados de la investigación aplicados a la docencia y al mundo laboral relacionados con la formación.</li>
+                            		<li>Proyectos formales de investigación en el que participa el estudiante y en la consultoría.</li>
+                            	</ol>
+                            	</li>
+                            	<li><strong>Ingreso, permanencia y eficiencia terminal en la formación</strong>
+                            	<ol>
+                            		<li>Cobertura geografía y equidad etnográfica de ingreso a la formación.</li>
+                            		<li>Equidad de género en la admisión.</li>
+                            		<li>Principios ideológicos y requisitos de ingreso.</li>
+                            		<li>Reconocimiento a estudiantes por su capacidad y competitividad.</li>
+                            		<li>Atención en alumnos de primer ingreso, asesorías y tutorías.</li>
+                            		<li>Cobertura y suficiencia en el Programas de becas.</li>
+                            		<li>Participación de estudiantes en evaluación y seguimiento a los servicios que le ofrece la institución.</li>
+                            		<li>Participación en eventos y redes académicos de la disciplina nacional e internacional.</li>
+                            		<li>Participación en eventos culturales, deportivos, medioambientales y de sustentabilidad.</li>
+                            		<li>Eficiencia terminal.</li>
+                            	</ol>
+                            	</li>
+                            	<li><strong>Profesores vinculados a la formación</strong>
+                            	<ol>
+                            		<li>Reconocimiento y premios otorgados en el ámbito de su disciplina.</li>
+                            		<li>Resultados como docente.</li>
+                            		<li>Resultados como investigador.</li>
+                            		<li>Resultados en actividades de extensión.</li>
+                            		<li>Resultados de la actividad tutorial y de asesoría a estudiantes.</li>
+                            		<li>Resultados en la actividad de gestión.</li>
+                            		<li>Actividades y resultados con grupos académicos en el ámbito de su disciplina.</li>
+                            		<li>Percepción de estudiantes en su desempe&ntilde;o.</li>
+                            		<li>Superación académica y grado académico.</li>
+                            		<li>Antecedentes curriculares.</li>
+                            	</ol>
+                            	</li>
+                            	<li><strong>Pertinencia del modelo educativo y estructura curricular</strong>
+                            	<ol>
+                            		<li>Congruencia del plan de estudios con los objetivos de la formación</li>
+                            		<li>Comparativa del plan de estudios con otros similares.</li>
+                            		<li>Evaluación y actualización del plan de estudios.</li>
+                            		<li>Organización y operación del plan de estudios.</li>
+                            		<li>La investigación vinculada al plan de estudios.</li>
+                            		<li>Plan de estudios vinculado al postgrado.</li>
+                            		<li>Contenidos en el plan de estudios sobre cuidados del medio ambiente, uso de energías alternativas, cuidado del aire, agua, equidad de género, etc.</li>
+                            		<li>Las disciplinas relacionadas al plan de estudios en vinculación con redes temáticas.</li>
+                            		<li>Vinculación de las tecnologías de la información y la comunicación en el plan de estudios.</li>
+                            		<li>Servicio social, prácticas profesionales, actividades vinculadas al plan de estudios.</li>
+                            	</ol>
+                            	</li>
+                            	<li><strong>Estrategias metodológicas de aprendizaje en los procesos formativos</strong>
+                            	<ol>
+                            		<li>Cumplimiento en el conjunto de competencias de acuerdo con el perfil de egreso programado.</li>
+                            		<li>Adecuación a los objetivos del plan de estudios; cumplimiento de los contenidos y los objetivos de cada asignatura.</li>
+                            		<li>Efectividad de los instrumentos y procedimientos utilizados por las instancias responsables de la evaluación.</li>
+                            		<li>Evaluación de los diversos tipos de aprendizaje alcanzados por los estudiantes.</li>
+                            		<li>Supervisión de los aprendizajes, la evaluación de los conocimientos y las competencias adquiridas por los estudiantes en el servicio social y/o en las prácticas profesionales.</li>
+                            		<li>Actividad tutorial y asesoría.</li>
+                            		<li>Actividades para reafirmar el conocimiento relacionados con los sectores</li>
+                            		<li>Sociales. Actividades en formación integral.</li>
+                            		<li>Certificación de competencias por organismos de prestigio.</li>
+                            		<li>Nivel de la autogestión en el proceso formativo.</li>
+                            	</ol>
+                            	</li>
+                            	<li><strong>Infraestructura, equipamiento, tecnologías y bibliografía en la formación</strong>
+                            	<ol>
+                            		<li>Congruencia entre instalaciones, equipamiento y tecnología con la formación.</li>
+                            		<li>Suficiencia, pertinencia y cobertura entre instalaciones, equipamiento y tecnología con la formación.</li>
+                            		<li>Eficiencia y eficacia en el uso de instalaciones, equipamiento y tecnología con la formación.</li>
+                            		<li>Estrategias de actualización.</li>
+                            		<li>Uso de las tecnologías de la información.</li>
+                            		<li>Sustentabilidad en el uso de las energías, recursos naturales y control de desechos orgánicos e inorgánicos.</li>
+                            		<li>Plan institucional de crecimiento de infraestructura, tecnología y financiamiento en congruencia con los requerimientos de la formación.</li>
+                            		<li>Protección civil en las instalaciones y uso de las tecnologías.</li>
+                            		<li>Construcción de edificaciones en congruencia con los procesos formativos.</li>
+                            		<li>Programa de actualización tecnológica pertinente para uso en la formación.</li>
+                            	</ol>
+                            	</li>
+                            	<li><strong>Impacto de las actividades de extensión, vinculación y difusión en la formación</strong>
+                            	<ol>
+                            		<li>Reconocimiento de actividades de extensión a profesores y estudiantes.</li>
+                            		<li>Estudiantes vinculados a los sectores sociales y/o científicos.</li>
+                            		<li>Profesores vinculados a los sectores sociales y/o científicos.</li>
+                            		<li>Servicio social vinculado con prácticas profesionales de la formación a los sectores de la sociedad.</li>
+                            		<li>Actividades científicas tecnológicas que organiza la institución vinculadas a la sociedad en el que participan los profesores y estudiantes de la formación; como eventos, ferias, concursos, exposiciones.</li>
+                            		<li>Resultados de convenios, proyectos y servicios específicos con los sectores sociales en apoyo a la formación.</li>
+                            		<li>Artículos de difusión científica publicados en el que participan profesores y estudiantes.</li>
+                            		<li>Programa de difusión especifico de la formación.</li>
+                            		<li>Torneos, olimpiadas y concursos de conocimientos de la disciplina de la formación en el que participan profesores y estudiantes.</li>
+                            		<li>Programas de extensión vinculadas a la formación.</li>
+                            	</ol>
+                            	</li>
+                            	<li><strong>Reconocimiento Internacional de la formación</strong>
+                            	<ol>
+                            		<li>Reconocimiento del egresado en el exterior.</li>
+                            		<li>Premios otorgados a estudiantes en olimpiadas de conocimiento.</li>
+                            		<li>Participación de estudiantes en eventos académicos internacionales.</li>
+                            		<li>Participación de profesores en eventos y actividades académicas internacionales.</li>
+                            		<li>Estrategias de socialización sobre experiencias de estudiantes en el exterior.</li>
+                            		<li>Políticas y estrategias de la institución en la internacionalización de la formación.</li>
+                            		<li>Impacto en la recepción de estudiantes.</li>
+                            		<li>Convenios de internacionalización.</li>
+                            		<li>Reconocimiento internacional de la formación.</li>
+                            		<li>Profesores con formación en universidades de prestigio.</li>
+                            	</ol>
+                            	</li>
+                            	<li><strong>Impacto en la pertinencia de la normatividad, la administración y las finanzas como facilitadoras en la formación</strong>
+                            	<ol>
+                            		<li>Certificación de calidad en los procesos y procedimientos administrativos en atención a la formación.</li>
+                            		<li>Atención a las demandas y propuestas de requerimientos administrativos de estudiantiles y profesores.</li>
+                            		<li>Capacidad financiera en la formación.</li>
+                            		<li>Eficiencia y eficacia en el ejercicio presupuestal de la formación.</li>
+                            		<li>Eficiencia y eficacia en la gestión de recursos financieros.</li>
+                            		<li>Nivel de captación de ingresos propios o extraordinarios.</li>
+                            		<li>Plan estratégico de crecimiento prospectivo, financiero y administrativo acorde a la formación.</li>
+                            		<li>Suficiencia administrativa y financiera para el desarrollo de la investigación, la extensión y la internacionalización de los entes de la formación.</li>
+                            		<li>Pertinencia en la normatividad aplicada a la formación.</li>
+                            		<li>Participación de la comunidad universitaria en adecuación normativa</li>
+                            	</ol>
+                            	</li>
+                            </ol>
+                            
+                            <p></p>
+                        </textarea>
+                  </div>
+                </div>
+
+              <hr />
+                <div class="row">
+                  <div class="col-md-12">
+                    <h2>X. Resultados de la Evaluación Externa</h2>
+                    <textarea id="indice_10" name="indice_10">
+                            <h2>X. Resultados de la Evaluación Externa</h2>
+
+                        <p>La Evaluación Externa (EE) se realizó con base a la Evaluación Interna (EI) que fue integrada a la plataforma SIEVAS la cual describe las fortalezas las debilidades, el plan de mejoramiento continuo, las estadísticas de comportamiento retroactivo a 5 años y la asignación de calificación para los 100 ítems.</p>
+                        
+                        <p>La escala de valores para medir la percepción por el Comité Evaluador Externo (CEE) y el Comité Verificador (CV) se basó en los siguientes criterios:</p>
+                        
+                        <p>10-Muy Alta o Excelente<br />
+                        9-Alta<br />
+                        8-Medianamente Alta<br />
+                        7-Incipientemente Alta<br />
+                        6-Incipiente<br />
+                        5-Medianamente Incipiente<br />
+                        4-Poco Incipiente<br />
+                        3-Medianamente Escasa<br />
+                        2-Escasa<br />
+                        1-Muy Escasa</p>
+                        
+                        <p>NA-No Aplica (las respuestas a los ítems que aparecen con este valor no son promediables).</p>
+                        
+                        <p>Los resultados de le Evaluación Externa y de Verificación In Situ fueron:</p>
+                        
+                        <h3>RUBRO 1. Impacto social de la formación</h3>
+                        
+                        <p>{XXXXXXXXXX}</p>
+                        
+                        <h3>RUBRO 2. Resultados de la investigación vinculados a la formación</h3>
+                        
+                        <p>{XXXXXXXXXX}</p>
+                        
+                        <h3>RUBRO 3. Ingreso, permanencia y eficiencia terminal en la formación</h3>
+                        
+                        <p>{XXXXXXXXXX}</p>
+                        
+                        <h3>RUBRO 4. Profesores vinculados a la formación</h3>
+                        
+                        <p>{XXXXXXXXXX}</p>
+                        
+                        <h3>RUBRO 5. Pertinencia del modelo educativo y estructura curricular</h3>
+                        
+                        <p>{XXXXXXXXXX}</p>
+                        
+                        <h3>RUBRO 6. Estrategias metodológicas de aprendizaje</h3>
+                        
+                        <p>{XXXXXXXXXX}</p>
+                        
+                        <h3>RUBRO 7. Infraestructura, equipamiento, tecnologías y bibliografía en la formación</h3>
+                        
+                        <p>{XXXXXXXXXX}</p>
+                        
+                        <h3>RUBRO 8. Impacto de las actividades de extensión, vinculación y difusión en la formación</h3>
+                        
+                        <p>{XXXXXXXXXX}</p>
+                        
+                        <h3>RUBRO 9. Reconocimiento internacional de la formación</h3>
+                        
+                        <p>{XXXXXXXXXX}</p>
+                        
+                        <h3>RUBRO 10. Impacto en la pertinencia de la normatividad, la administración y las finanzas como facilitadoras en la formación</h3>
+                        
+                        <p>{XXXXXXXXXX}</p>
+
+                        </textarea>
+                  </div>
+                </div>
+
+              <hr />
+                <div class="row">
+                  <div class="col-md-12">
+                    <h2>XI. Percepción de los entes involucrados en los Programas Académicos</h2>
+                    <textarea id="indice_11" name="indice_11">
+                            <h2>XI. Percepción de los entes involucrados en los Programas Académicos</h2>
+                            <p>La percepción en general de directivos, administrativos, profesores, estudiantes y egresados sobre los programas educativos, es aceptable toda vez que sus comentarios y observaciones fueron realistas con una notoria responsabilidad ética y profesional, en la construcción de propuestas viables en impulsar su calidad.</p>
+                        </textarea>
+                  </div>
+                </div>
+
+              <hr />
+                <div class="row">
+                  <div class="col-md-12">
+                    <h2>XII. Niveles de calidad</h2>
+                    <textarea id="indice_12" name="indice_12">
+                            <h2>XII. Niveles de calidad</h2>
+                            <p>Existen 3 niveles de calidad como resultado de un proceso de evaluación para una posible acreditación. Cada nivel tiene una sub-escala de valores que identifica con mayor precisión la calidad:</p>
+                            <p><strong>Tercer nivel de calidad comprende la siguiente escala:</strong> De 0.1 a 1, muy escasa la calidad; de 1.1 a 2, escasa la calidad; de 2.1 a 3, medianamente escasa la calidad.</p>
+                            <p><strong>Segundo nivel de calidad comprende la siguiente escala:</strong> De 3.1 a 4, poco incipiente la calidad; de 4.1 a 5, medianamente incipiente la calidad; de 5.1 a 6, muy incipiente la calidad.</p>
+                            <p><strong>Primer nivel de calidad comprende la siguiente escala:</strong> De 6.1 a 7, incipientemente alta la calidad; de 7.1 a 8 medianamente alta la calidad; de 8.1 a 9, alta la calidad; de 9.1 a 10, muy alta la calidad.</p>
+                            <p>Es posible acceder a la acreditación internacional de calidad cuando el resultado final del proceso de la evaluación corresponde al <strong>primer nivel de calidad o estar condicionado temporalmente para impulsar el nivel de calidad en un plazo no mayor a los 18 meses después de emitirse el presente dictamen.</strong></p>
+                        </textarea>
+                  </div>
+                </div>
+
+              <hr />
+                <div class="row">
+                  <div class="col-md-12">
+                    <h2>XIII. Conclusión</h2>
+                    <textarea id="indice_13" name="indice_13">
+                            <h2>XIII. Conclusión</h2>
+                            <p>{XXXXXXXXXX}</p>
+                        </textarea>
+                  </div>
+                </div>
+
+              <hr />
+                <div class="row">
+                  <div class="col-md-12">
+                    <h2>XIV. Período de la Acreditación</h2>
+                    <textarea id="indice_14" name="indice_14">
+                            <h2>XIV. Período de la Acreditación</h2>
+
+                        <p>De acuerdo al modelo GRANA, el periodo de <strong>Acreditación Internacional para el Bachillerato</strong> va acorde al puntaje obtenido de la evaluación externa, siendo:</p>
+                        
+                        <table border="1" cellpadding="1" cellspacing="1" style="width: 100%;">
+                        	<thead>
+                        		<tr>
+                        			<th scope="col">Puntaje Obtenido</th>
+                        			<th scope="col">Periodo</th>
+                        			<th scope="col">Categoría Asignada</th>
+                        			<th scope="col">Evaluaciones Subsiguientes</th>
+                        		</tr>
+                        	</thead>
+                        	<tbody>
+                        		<tr>
+                        			<td>0-5.000</td>
+                        			<td>Sin asignación</td>
+                        			<td>Sin categoría</td>
+                        			<td>Es recomendable realizar nuevamente el proceso de evaluación una vez que hayan transcurrido 3 años después de la emisión del Reporte/Dictamen</td>
+                        		</tr>
+                        		<tr>
+                        			<td>5.001-6.0</td>
+                        			<td>Un año, seis meses</td>
+                        			<td>Acreditado Condicionado</td>
+                        			<td>Presentar 100 días antes del vencimiento del período de su acreditación, su Revaluación</td>
+                        		</tr>
+                        		<tr>
+                        			<td>6.001-7.0</td>
+                        			<td>Dos años</td>
+                        			<td>Acreditado</td>
+                        			<td>Presentar 100 días antes del vencimiento del periodo de acreditación su Revaluación</td>
+                        		</tr>
+                        		<tr>
+                        			<td>7.001-10.0</td>
+                        			<td>Cinco aóos</td>
+                        			<td>Acreditado</td>
+                        			<td>Presentar 100 días antes del vencimiento del periodo de su re acreditación su Revaluación</td>
+                        		</tr>
+                        	</tbody>
+                        </table>
+                        
+                        <p>{XXXXXXXXXX}</p>
+
+                        </textarea>
+                  </div>
+                </div>
+
+
+              <hr />
+                <div class="row">
+                  <div class="col-md-12">
+                    <h2>XV. Seguimiento al incremento en el puntaje o en el nivel de calidad</h2>
+                    <textarea id="indice_15" name="indice_15">
+                            <h2>XV. Seguimiento al incremento en el puntaje o en el nivel de calidad</h2>
+                            <p>El modelo de evaluación GRANA posee condiciones de aplicaciones y plataformas tecnológicas ante un posible incremento en los niveles de calidad o superación de debilidades siguiendo con el proceso metodológico señalado en este documento de acuerdo con el conjunto de actividades planeadas, programadas, con recursos de apoyo y evaluadas. Así como, las relacionadas a las estrategias utilizadas para superar las debilidades y mantener las fortalezas {XXXXXXXXXXX} habrá que atender con metas claras y concretas. Se recomienda implementar el conjunto de acciones que conforman el plan de mejoramiento a la brevedad que opere de acuerdo con las necesidades detectadas en el proceso de evaluación, considerando: estructura institucional, metas a realizar, cronograma de actividades y responsables de cada una de ellas.</p>
+                        </textarea>
+                  </div>
+                </div>
+
+              <hr />
+                <div class="row">
+                  <div class="col-md-12">
+                    <h2>XVI. Cierre</h2>
+                    <textarea id="indice_16" name="indice_16">
+                        <h2>XVI. Cierre</h2>
+                        <p>En la ciudad Albuquerque, NM, Estados Unidos y siendo las 9 horas del </p>
+                        <p>{XXXXXXXXXX}</p>
+                        </textarea>
+                  </div>
+                </div>
+
+                
+
+
+                <div>
+                  <button style="margin-bottom:30px; margin-top:30px;" class="btn btn-info">Guardar</button> 
+                </div>
+
+            </form>
+            
+                <div style="position: fixed; bottom: 10px; right: 20px;">
+                    <textarea id="pasteArea" placeholder="Carga IMG" style="float:left; margin:0px; width:140px; height:33px; border:3px solid; border-color: #D35400;"></textarea>
+                    
+                    <p><button class="btn btn-info" onclick="clearIMG();" style="float:right; margin-top: 10px;">Limpiar IMG</button></p>
+                    <p><img id="pastedImage" style="max-width:200px; max-height: auto; margin-top: 50px; margin-bottom:50px; float:right;"></img></p>
+                </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+</div>
